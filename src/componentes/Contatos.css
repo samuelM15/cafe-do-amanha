@@ -1,0 +1,69 @@
+.secao_contato{
+    background-color: #8B4513;
+    padding: 40px;
+}
+
+.box_all{
+    color: white;
+}
+.box_all h1{
+    font-family: 'Brush Script MT',fantasy;
+    color: #DEB887;
+    font-size: 3.5rem;
+}
+
+.box_all .text_contato p{
+    font-size: 17px;
+    margin-top: 1rem;
+    border-bottom: 2px #DEB887 solid;
+}
+.box_all .contato{
+    margin-bottom: 3rem;
+}
+.box_all .contato p{
+    font-size: 17px;
+}
+.box_all .contato strong{
+    font-size: 18px;
+    color: #DEB887;
+}
+.box_all .form_contato .container_form{
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+.form_contato .container_form{
+    margin-bottom: 30px;
+}
+.container_form input{
+    background: transparent;
+    border:3px #DEB887 solid;
+    border-radius: 6px;
+}
+.container_form textarea{
+    background: transparent;
+    border:3px #DEB887 solid;
+    border-radius: 6px;
+}
+.container_form input::placeholder{
+    color: #DEB887;
+}
+.container_form textarea::placeholder{
+    color: #FFDEAD;
+}
+
+.form_contato button{
+    color: #8B4513;
+    background-color: #DEB887;
+    border: none;
+    border-radius: 6px;
+    width: 90px;
+    height: 30px;
+}
+.form_contato button:hover{
+    color: #DEB887;
+    background-color: #8B4513;
+    border: 2px #DEB887 solid;
+    transition: 500ms;
+}

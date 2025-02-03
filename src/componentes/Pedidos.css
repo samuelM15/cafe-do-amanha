@@ -1,0 +1,132 @@
+.secao_pedidos{
+    background-color: #8B4513;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+.body{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #FFDEAD;
+    display:flex;
+    justify-content: center;
+    flex-flow: column !important;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0.2px 0.2px 15px black;
+}
+
+.body h1{
+    text-align: center;
+    font-size: 3rem !important;
+    font-family: 'Brush Script MT',fantasy;
+    color: #8B4513;
+}
+
+.form{
+    height: 400px;
+    width: 80%;
+    display: flex;
+    flex-flow: column !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.box_bados_user{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box_bados_user input{
+    margin-top: 0.9rem;
+    background: transparent;
+    border: 3px #D2691E solid;
+    border-radius: 10px;
+    outline: none;
+}
+.box_bados_user input::placeholder{
+    color: #8B4513;
+}
+
+.box_Categorias{
+    display: flex;
+    flex-flow:row wrap;
+    border-top: 2px #D2691E solid;
+    border-bottom: 2px #D2691E solid;
+}
+
+.Notinha{
+    margin-top:20px;
+}
+.Notinha h2{
+    text-align: center;
+}
+/*Botões-----------*/
+.box_Categorias .button_pedidos{
+    margin: 10px;
+}
+.form button{
+    color: white;
+    border-radius: 10px;
+    border: 3px #D2691E solid;
+    background-color:#D2691E;
+}
+.form button:hover{
+    color: white;
+    border-radius: 10px;
+    border: 3px #8B4513 solid;
+    background-color:#8B4513;
+}
+/*Css do Modal------------------------------*/
+.modal-header{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.modal-footer{
+    display: flex;
+    justify-content: center;
+}
+.modal-footer .btn-primary{
+    color: white;
+    border-radius: 10px;
+    border: 3px #D2691E solid;
+    background-color:#D2691E;
+    margin-left: 20px;
+}
+.modal-footer .btn-primary:hover{
+    color: white;
+    border-radius: 10px;
+    border: 3px #8B4513 solid;
+    background-color:#8B4513;
+}
+.modal-title{
+    text-align: center;
+}
+
+.Box_produto{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.Box_quantidade{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.Box_quantidade label{
+    font-weight: bolder;
+}
+.Box_produto label{
+    font-weight: bolder;
+}
+.Box_quantidade input{
+    border-radius: 5px;
+}
+.Box_produto select{
+    border-radius: 5px;
+    margin-bottom: 15px;
+}

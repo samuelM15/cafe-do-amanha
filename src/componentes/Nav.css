@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #FFDEAD ;
+}
+
+.navbar-brand{
+    font-family: 'Brush Script MT',fantasy;
+    font-size: 2rem !important;
+    font-weight: bold;
+    text-decoration: none;
+    color: #D2691E !important;
+}
+
+.navbar-nav .nav-link{
+    color: #D2691E;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: #D2691E;
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+}
