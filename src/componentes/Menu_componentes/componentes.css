@@ -1,0 +1,43 @@
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contain-2{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+  
+.Image1{
+    background: url('https://naturvida.com.br/wp-content/uploads/2023/08/DreamShaper_v7_green_tea_0.jpg') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
+
+.Image2{
+    background: url('https://tvazteca.brightspotcdn.com/a5/7c/88ba036426bf1c30eb2a64fe84a4/cafe-1820489.jpg') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
+
+.Image3{
+    background: url('https://cantinhocriativoedicas.com/wp-content/uploads/2018/05/img_mousse_de_maracuja_simples_6037_600-600x500.jpg') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
+
+.Image4{
+    background: url('https://th.bing.com/th/id/OIP.W_8sZiePLNSXa5CmVtiInwHaFD?rs=1&pid=ImgDetMain');
+    width: 450px;
+    height: 340px;
+}
+
+.Image5{
+    background: url('https://static.fanpage.it/wp-content/uploads/sites/22/2020/06/Croissant24.jpg') no-repeat center/cover;
+    width: 450px;
+    height: 340px;
+}
